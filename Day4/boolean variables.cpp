@@ -29,14 +29,6 @@ int main(){
     {
         cout<<(false)<<endl;
     }
-    if(spammer ! headshot)
-        {
-        cout<<(false)<<endl;
-    }
-    else
-    {
-        cout<<(true)<<endl;
-    }
     if(headshot || spammer)
         {
         cout << (true)<<endl;
