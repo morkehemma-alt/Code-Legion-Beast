@@ -13,7 +13,6 @@ int main(){
 
     // 1. Seed with a non-deterministic random device
     std::random_device rd;
-
     std::uniform_int_distribution<> distr(0, options.size() - 1);
     auto seed = rd() ^ (
     (std::chrono::steady_clock::now().time_since_epoch().count()) +
@@ -22,12 +21,9 @@ int main(){
  char playAgain;
 do{
     std::mt19937 gen(seed);
-
     std::string player;
     bool isValid = false;
     std::string computer = options[distr(gen)];
-
-
     std::uniform_int_distribution<> distr(0, options.size() - 1);
     std::string computerMove = options[distr(gen)];
     while(!isValid){
@@ -52,21 +48,13 @@ do{
          (player == "scissors" && computer == "paper"))
          {
         std::cout << "You win!";
-
                 }else {
         std::cout << "Computer wins!";
                 }
-
         std::cout << "\nDo you want to play again? (y/n): ";
         std::cin >> playAgain;
 
-
     }while (playAgain == 'y' || playAgain == 'Y');
-
     std::cout << "Thanks for playing!" << std::endl;
-
-
-
-
     return 0;
 }
