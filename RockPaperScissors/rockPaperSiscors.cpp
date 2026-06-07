@@ -9,6 +9,11 @@
 using namespace std;
 
 int main(){
+
+    std::cout << "=========================================\n";
+    std::cout << "Welcome to Rock, Paper, Scissors!\n";
+    std::cout << "First to 3 wins the match.\n";
+    std::cout << "=========================================\n\n";
     std::vector<std::string> options = {"rock", "paper", "scissors"};
 
     // 1. Seed with a non-deterministic random device
@@ -18,6 +23,9 @@ int main(){
     (std::chrono::steady_clock::now().time_since_epoch().count()) +
     (std::chrono::high_resolution_clock::now().time_since_epoch().count())
 );
+int playerScore = 0;
+int computerScore = 0;
+int ties = 0;
  char playAgain;
 do{
     std::mt19937 gen(seed);
@@ -26,8 +34,10 @@ do{
     std::string computer = options[distr(gen)];
     std::uniform_int_distribution<> distr(0, options.size() - 1);
     std::string computerMove = options[distr(gen)];
+
     while(!isValid){
-    std::cout<<"Enter your choice(Rock, Paper, Scissors)?"<< std::endl;
+
+    std::cout<<"\nEnter your choice(Rock, Paper, Scissors)?"<< std::endl;
     std::cin >> player;
     std::cout<<"Computer's choice : " << computer << std::endl;
 
@@ -41,20 +51,38 @@ do{
         }
     }
     if (player == computer) {
-            std::cout << "It's a tie!";
+            std::cout << "\n===It's a tie!===";
         }
         else if ((player == "rock" && computer == "scissors") ||
          (player == "paper" && computer == "rock") ||
          (player == "scissors" && computer == "paper"))
          {
-        std::cout << "You win!";
+        std::cout << "\n===You win!===";
+            playerScore = playerScore + 1;
+            computerScore = computerScore + 0;
+           std::cout << "\nPlayer Score: " << playerScore;
+           std::cout << "\nComputer Score: " << computerScore;
+           std::cout<< "\n\n<===============================> "<< endl;
                 }else {
-        std::cout << "Computer wins!";
+        std::cout << "\n===Computer wins!===";
+            playerScore = playerScore + 0;
+            computerScore = computerScore + 1;
+            std::cout << "\nPlayer Score: " << playerScore;
+            std::cout << "\nComputer Score: " << computerScore;
+             std::cout<< "\n\n<==============================> "<<endl;
                 }
-        std::cout << "\nDo you want to play again? (y/n): ";
-        std::cin >> playAgain;
 
-    }while (playAgain == 'y' || playAgain == 'Y');
-    std::cout << "Thanks for playing!" << std::endl;
+     if (playerScore == 3) {
+        std::cout << "\nCongratulations! You won the match!\n";
+        break;
+    } else if (computerScore == 3){
+        std::cout << "\nGame Over! The computer won the match.\n";
+        break;
+
+    }}
+
+    while (playerScore < 3 && computerScore < 3);
+
+    std::cout << "\nThanks for playing!😁" << std::endl;
     return 0;
 }
