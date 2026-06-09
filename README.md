@@ -1,134 +1,131 @@
-# Code-Legion-Beast
-My C++  journey with Code Legion
-# ⚡ Code-Legion-Beast
+# 🧩 Code Legion · Phantom
 
-<!-- Badges -->
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![Language: C++](https://shields.io)](https://isocpp.org)
-[![Profile: morkehemma-alt](https://shields.io)](https://github.com/morkehemma-alt)
-
-**A structured, day-by-day technical log documenting my core software engineering progression through Code Legion.** This repository maps out deep-dives into modern object-oriented paradigms, algorithmic problem solving, and multi-language foundations across C++, Java, and Python.
+> *Team Lead & Python Pod · Mastering Python · Exploring Java & C++*
 
 ---
 
-## 🖼️ Visual Journey
+## 🚀 Overview
 
-![Code Legion Banner](https://placeholder.com)
+**Phantom** leads the Python pod of **Code Legion** — a squad of 4 developers learning in sync.  
+Each member owns a primary language while cross-learning the fundamentals of others.
 
----
+### 🎯 Current Goals
 
-## ✨ Key Features
-
-*   📅 **Day-by-Day Progression:** Chronological folders tracking fundamental concepts up to complex operational implementations.
-*   🎮 **Interactive Mini-Projects:** Practical logic implementations including automated games and interactive command-line interfaces.
-*   🧩 **Polyglot Foundations:** Practical syntax tracking primarily in C++, with supporting logic tracking in Java and Python.
-*   ⚙️ **Functional Abstraction:** Clean isolation of business logic using optimized operational routines.
-
----
-
-## 🛠️ Tech Stack
-
-*   **Primary Language:** C++ (89.6%)
-*   **Secondary Languages:** Java (6.4%), Python (4.0%)
-*   **Environments:** GCC / G++ Compiler, Java SDK, Python 3 runtime
+- 🐍 **Master Python** (advanced patterns, automation, data structures)
+- ☕ **Learn Java basics** (OOP, JVM fundamentals)
+- ⚙️ **Learn C++ basics** (pointers, memory management)
+- 🧱 **Build real projects** (CLI tools, APIs, mini-engines)
 
 ---
 
-## 🚀 Getting Started
+## 👥 Code Legion — Developer Matrix
 
-### Prerequisites
-To compile and execute the code tracks locally, make sure you have the following installed:
-*   **GCC/G++ Compiler** (for C++ binaries)
-*   **Java Development Kit (JDK)** >= 17
-*   **Python Engine** >= 3.10
+| Codename | Primary Language | Role | GitHub |
+|----------|----------------|------|--------|
+| 🧩 **PHANTOM** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Team Lead & Python Pod Lead | [@beaker/cupola](https://github.com/beaker/cupola) |
+| 🅰️ **ALPHA** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Java Pod Lead | [@code4cap](https://github.com/code4cap) |
+| 🧘 **QUIES** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Java Pod Lead | [@code4cap-cyber](https://github.com/code4cap-cyber) |
+| 🐉 **BEAST** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Java Pod Lead | [@code4cap-cyber](https://github.com/code4cap-cyber) |
 
-### 1. Clone the Repository
+---
+
+## 📊 Daily Progress — Python Pod
+
+```python
+# Week 1 · Core fundamentals
+✅ Completed: Functions, OOP, decorators  
+🔄 In progress: Iterators + generators  
+📅 Next: AsyncIO + project scaffolding
+```
+
+📁 Active Python Projects
+
+Project Status Tech
+cli-task-tracker 🟢 Beta Click, SQLite
+data-wrangler 🟡 Dev Pandas, NumPy
+mini-search-engine 🔵 Design Whoosh, FastAPI
+
+---
+
+🧠 Cross-Language Learning Roadmap
+
+```mermaid
+gantt
+    title Cross-Language Learning
+    dateFormat  YYYY-MM-DD
+    section Python
+    Mastery               :done, 2025-01-01, 60d
+    section Java
+    OOP + Collections     :active, 2025-03-01, 30d
+    section C++
+    Pointers + Memory     :2025-04-01, 40d
+```
+
+---
+
+🛠️ Tech Stack (Phantom)
+
+Category Tools
+Languages Python (primary), Java, C++ (learning)
+Python ecosystem FastAPI, Pytest, SQLAlchemy, Black
+Dev tools Git, Docker, VS Code, Postman
+Learning resources Real Python, Baeldung (Java), learncpp.com
+
+---
+
+📈 Weekly Tracker
+
+Week Focus Deliverable
+1 Python advanced OOP Library mgmt system
+2 Java basics (syntax, loops) FizzBuzz + calculator
+3 C++ pointers & refs Array reverser
+4 Python + SQLAlchemy CRUD API
+
+---
+
+🤝 Contribution Flow (within Legion)
+
 ```bash
-git clone https://github.com
-cd Code-Legion-Beast
+# Standard workflow
+git checkout -b feature/your-task
+git commit -m "feat: description"
+git push origin feature/your-task
+# → Open PR for review
 ```
 
-### 2. Compiling and Running a C++ Track (e.g., Day 7 Loops)
-Navigate to the desired directory, compile using `g++`, and run the output executable:
-```bash
-cd Day7-loops
-g++ main.cpp -o loops_exec
-./loops_exec
-```
-
-### 3. Running an Interactive Application (e.g., Rock Paper Scissors)
-```bash
-cd ../RockPaperScissors
-g++ game.cpp -o rps_game
-./rps_game
-```
+· PR reviews : Required by 1 other pod lead
+· Code style: Python → Black + isort, Java → Google style
+· Issues tracked: GitHub Projects (Kanban)
 
 ---
 
-## 💡 Usage Examples
+📌 Progress Dashboard
 
-### Executing Functional Routines
-The repository highlights modular architecture by abstracting operational work into dedicated functional systems:
+https://progress-bar.dev/78/?title=Python%20Mastery
+https://progress-bar.dev/34/?title=Java%20Basics
+https://progress-bar.dev/22/?title=C++%20Basics
 
-```cpp
-#include <iostream>
-// Sample operational interface from the functions folder
-#include "operational_work.h" 
+---
 
-int main() {
-    // Initializing tracking configuration
-    int status = executeOperationalTask();
-    std::cout << "Task complete with exit sequence: " << status << std::endl;
-    return 0;
-}
+📬 Connect
+
+· Team Lead : @beaker/cupola
+· Legion Discussions: GitHub Discussions (private)
+
+---
+
+<div align="center">
+
+⚔️ Code Legion — One squad, four languages. Build in sync. ⚔️
+
+</div>
 ```
 
----
+This README includes:
 
-## 📁 Architecture & Folder Structure
-
-```text
-├── Day1/                       # Syntax kick-off & development env configuration
-├── Day2/                       # Data evaluation mechanics
-├── Day3/                       # Decision trees & logical flows
-├── Day4/                       # Complex conditional branches
-├── Day5/                       # Core control flows
-├── Day6/                       # Initial looping frameworks
-├── Day7-loops/                 # Deeper loop implementations (for, while, do-while)
-├── NumberGuessingGame/         # Binary search logic & game flow control
-├── RockPaperScissors/          # Randomization algorithms & input parsing logic
-├── functions(cpp...)/          # C++ structural abstractions for functional processing
-├── pythonAssignment/           # Python structural scripts and paradigms
-├── variableinitialization-java/# Java variable mechanics and assignments
-├── .gitignore                  # Development environment filters
-└── README.md                   # System documentation
-```
-
----
-
-## 🗺️ Roadmap
-
-- [x] Establish daily fundamental logic tracks (Days 1–7).
-- [x] Implement CLI-based simulation systems (Rock Paper Scissors, Number Guessing).
-- [x] Configure functional abstractions for backend execution.
-- [ ] Implement advanced pointer management architectures.
-- [ ] Build basic object-oriented design patterns within daily logs.
-
----
-
-## 🤝 Contributing
-
-This is a personal training and progression repository. However, ideas, optimizations, or alternate logic implementations are always welcome!
-
-1. **Fork** the repository.
-2. Create your **feature tracking branch** (`git checkout -b feature/optimization`).
-3. **Commit** changes (`git commit -m 'Optimize algorithmic sorting layout'`).
-4. **Push** to the branch (`git push origin feature/optimization`).
-5. Open a **Pull Request**.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See the local project headers for validation rules.
-
+· Clean hierarchy with emojis and badges for visual clarity
+· Team table that matches your provided codenames and roles
+· Progress bars + Gantt chart (Mermaid) for roadmap
+· Project tracking and daily status section
+· Contribution workflow for team collaboration
+· Professional GitHub styling (badges, tables, code blocks)
