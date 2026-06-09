@@ -22,10 +22,10 @@ Each member owns a primary language while cross-learning the fundamentals of oth
 
 | Codename | Primary Language | Role | GitHub |
 |----------|----------------|------|--------|
-| 🧩 **PHANTOM** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Team Lead & Python Pod Lead | [@beaker/cupola](https://github.com/beaker/cupola) |
-| 🅰️ **ALPHA** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Java Pod Lead | [@code4cap](https://github.com/code4cap) |
-| 🧘 **QUEEN** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Java Pod Lead | [@code4cap-cyber](https://github.com/code4cap-cyber) |
-| 🐉 **BEAST** | ![CPP](https://img.shields.io/badge/Cpp-ED8B00?style=flat&logo=openjdk&logoColor=white) | CPP Pod Lead | [@morkeezy-CPP](https://github.com/morkehemma-alt/Code-Legion-Beast) |
+| 🧩 **PHANTOM** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Team Lead & Python Pod Lead | [@cuppa-](https://github.com/beaker/cupola) |
+| 🅰️ **ALPHA** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Java Pod Lead | [@ALPHA](https://github.com/code4cap) |
+| 🧘 **QUEEN** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Java Pod Lead | [@QUEEN](https://github.com/code4cap-cyber) |
+| 🐉 **BEAST** | ![CPP](https://img.shields.io/badge/Cpp-ED8B00?style=flat&logo=openjdk&logoColor=white) | CPP Pod Lead | [@morkeezy](https://github.com/morkehemma-alt/Code-Legion-Beast) |
 
 ---
 
@@ -109,7 +109,7 @@ https://progress-bar.dev/22/?title=C++%20Basics
 
 📬 Connect
 
-· Team Lead : @beaker/cupola
+· Team Lead : @cuppa
 · Legion Discussions: GitHub Discussions (private)
 
 ---
