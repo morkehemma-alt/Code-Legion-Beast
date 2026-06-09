@@ -16,6 +16,13 @@ int main(){
     std::cout << "=========================================\n\n";
     std::vector<std::string> options = {"rock", "paper", "scissors"};
 
+
+
+int playerScore = 0;
+int computerScore = 0;
+int ties = 0;
+ char playAgain;
+do{
     // 1. Seed with a non-deterministic random device
     std::random_device rd;
     std::uniform_int_distribution<> distr(0, options.size() - 1);
@@ -23,16 +30,10 @@ int main(){
     (std::chrono::steady_clock::now().time_since_epoch().count()) +
     (std::chrono::high_resolution_clock::now().time_since_epoch().count())
 );
-int playerScore = 0;
-int computerScore = 0;
-int ties = 0;
- char playAgain;
-do{
     std::mt19937 gen(seed);
     std::string player;
     bool isValid = false;
     std::string computer = options[distr(gen)];
-    std::uniform_int_distribution<> distr(0, options.size() - 1);
     std::string computerMove = options[distr(gen)];
 
     while(!isValid){
@@ -83,6 +84,6 @@ do{
 
     while (playerScore < 3 && computerScore < 3);
 
-    std::cout << "\nThanks for playing!😁" << std::endl;
+    std::cout << "\nThanks for playing!" << std::endl;
     return 0;
 }
